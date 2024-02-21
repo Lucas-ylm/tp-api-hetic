@@ -1,6 +1,5 @@
 const PDFDocument = require('pdfkit');
 const express = require('express');
-const fs = require('fs');
 
 const router = express.Router();
 router.post('/pdf', (req, res) => {
